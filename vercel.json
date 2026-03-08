@@ -1,5 +1,5 @@
 {
-  "scripts": {
-    "build": "vite build --outDir public"
-  }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
